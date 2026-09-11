@@ -1,0 +1,14 @@
+name: 1bot-platform
+label: 1bot Bridge (1bot app 凭证发消息)
+kind: platform
+version: 1.0.0
+description: >
+  1bot Bridge — 让 Hermes 通过 1bot webhook_server /hermes/send 发飞书消息。
+  1bot app 凭证 (cli_a96708f4bd389bd3) 有权限发到 1bot DM,
+  Hermes app (cli_aa88479639789bdd) 没有 — 所以经 1bot bridge。
+author: NousResearch
+optional_env:
+  - name: ONEBOT_BRIDGE_URL
+    description: "1bot webhook_server base URL (默认 http://127.0.0.1:14098)"
+    prompt: "1bot URL"
+    password: false

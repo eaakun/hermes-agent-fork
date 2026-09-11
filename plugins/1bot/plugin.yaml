@@ -1,0 +1,5 @@
+name: 1bot
+version: 1.0.0
+description: Integration with 1bot for engineering task execution
+author: Hermes
+kind: standalone
